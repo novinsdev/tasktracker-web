@@ -34,12 +34,19 @@ Designed with clarity, maintainability, and developer-first workflow in mind.
 ## 📂 Project Structure
 
 src/
+
  ├── app/
+
  │   ├── page.tsx                 # Overview / Landing
+
  │   ├── projects/                # Projects list + detail pages
+
  │   ├── tasks/                   # Task + time entry flows
+
  │   └── layout.tsx               # Global layout shell
+
  │
+ 
  ├── components/
  │   └── ui/
  │       ├── button.tsx
