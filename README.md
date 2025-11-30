@@ -57,20 +57,15 @@ src/
 
 ## 🏃 Running the Application
 
-Install dependencies: 
-npm install 
+Install dependencies: `npm install`   
 
-Start development:  
-npm run dev 
+Start development: `npm run dev`    
 
-Build for production: 
-npm run build 
+Build for production: `npm run build`   
 
-Run production: 
-npm start 
+Run production: `npm start`    
 
-App will be available at: 
-http://localhost:3000 
+App will be available at: http://localhost:3000
 
 ---
 
