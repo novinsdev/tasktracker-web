@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task & Time Tracker — Frontend
 
-## Getting Started
+A lightweight, engineer-oriented web interface designed to interact with the Task & Time Tracker backend service.  
+Built with modern frontend technologies, this UI provides a clean and structured experience for managing projects, tasks, and time entries.
 
-First, run the development server:
+---
 
-```bash
+## 📝 Overview
+
+This frontend application serves as the presentation layer for the Task & Time Tracker system.  
+It allows users to:
+
+- Create and manage **projects**
+- Add and track **tasks** within each project
+- Log **time entries** against tasks including dates and hours
+- Interact seamlessly with REST API endpoints exposed by the backend
+
+Designed with clarity, maintainability, and developer-first workflow in mind.
+
+---
+
+## 🚀 Tech Stack
+
+| Category        | Technology |
+|----------------|------------|
+| Framework      | Next.js (App Router) |
+| Language       | TypeScript |
+| UI Styling     | TailwindCSS v4 |
+| Design Approach | Component-based UI (Card + Button + Layout Shell) |
+| Deployment Target | Vercel (recommended) |
+
+---
+
+## 📂 Project Structure
+
+src/
+ ├── app/
+ │   ├── page.tsx                 # Overview / Landing
+ │   ├── projects/                # Projects list + detail pages
+ │   ├── tasks/                   # Task + time entry flows
+ │   └── layout.tsx               # Global layout shell
+ │
+ ├── components/
+ │   └── ui/
+ │       ├── button.tsx
+ │       ├── card.tsx
+ │       └── page-shell.tsx
+ │
+ ├── lib/
+ │   ├── api.ts                   # REST fetch wrapper
+ │   └── types.ts                 # Shared interfaces
+ │
+ ├── app/globals.css              # Tailwind & global styles
+ └── tailwind.config.js           # Tailwind v4 config
+
+---
+
+## 🏃 Running the Application
+
+Install dependencies:
+npm install
+
+Start development:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run production:
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+App will be available at:
+http://localhost:3000
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 What This Project Demonstrates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✔ Modern Next.js App Router architecture  
+✔ TailwindCSS v4 global theming + component styling  
+✔ Clean UI with reusable Button, Card, and PageShell components  
+✔ Integration with REST API (Projects → Tasks → Time Entries)  
+✔ Practical frontend for real workflow + portfolio display  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔐 License & Usage Notice
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is shared publicly to showcase learning, craftsmanship, and technical capabilities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+While the repository is accessible, the source code and all associated materials remain the intellectual property of the author.
+
+To maintain the integrity of this work, please refrain from reusing the code directly in other projects or redistributing it in any form.
+If you wish to reference the project, linking to the repository is warmly appreciated.
+
+Thank you for respecting the spirit in which this work is made available.
+
+---
