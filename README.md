@@ -33,43 +33,25 @@ Designed with clarity, maintainability, and developer-first workflow in mind.
 
 ## 📂 Project Structure
 
-src/
-
- ├── app/
-
- │   ├── page.tsx                 # Overview / Landing
-
- │   ├── projects/                # Projects list + detail pages
-
- │   ├── tasks/                   # Task + time entry flows
-
- │   └── layout.tsx               # Global layout shell
-
- │
-
- ├── components/
-
- │   └── ui/
-
- │       ├── button.tsx
-
- │       ├── card.tsx
-
- │       └── page-shell.tsx
-
- │
-
- ├── lib/
-
- │   ├── api.ts                   # REST fetch wrapper
-
- │   └── types.ts                 # Shared interfaces
-
- │
- 
- ├── app/globals.css              # Tailwind & global styles
-
- └── tailwind.config.js           # Tailwind v4 config
+src/  
+ ├── app/ 
+ │   ├── page.tsx                 # Overview / Landing  
+ │   ├── projects/                # Projects list + detail pages  
+ │   ├── tasks/                   # Task + time entry flows 
+ │   └── layout.tsx               # Global layout shell 
+ │  
+ ├── components/  
+ │   └── ui/  
+ │       ├── button.tsx 
+ │       ├── card.tsx 
+ │       └── page-shell.tsx 
+ │  
+ ├── lib/ 
+ │   ├── api.ts                   # REST fetch wrapper  
+ │   └── types.ts                 # Shared interfaces 
+ │  
+ ├── app/globals.css              # Tailwind & global styles  
+ └── tailwind.config.js           # Tailwind v4 config  
 
 ---
 
