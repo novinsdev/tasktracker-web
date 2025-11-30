@@ -63,9 +63,11 @@ Start development: `npm run dev`
 
 Build for production: `npm run build`   
 
-Run production: `npm start`    
+Run production: `npm start`  
 
-App will be available at: http://localhost:3000
+App will be available at: http://localhost:3000 
+
+Live web access with Vercel: https://tasktracker-web.vercel.app/  
 
 ---
 
