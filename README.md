@@ -46,18 +46,29 @@ src/
  │   └── layout.tsx               # Global layout shell
 
  │
- 
+
  ├── components/
+
  │   └── ui/
+
  │       ├── button.tsx
+
  │       ├── card.tsx
+
  │       └── page-shell.tsx
+
  │
+
  ├── lib/
+
  │   ├── api.ts                   # REST fetch wrapper
+
  │   └── types.ts                 # Shared interfaces
+
  │
+ 
  ├── app/globals.css              # Tailwind & global styles
+
  └── tailwind.config.js           # Tailwind v4 config
 
 ---
